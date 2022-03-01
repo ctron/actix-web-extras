@@ -1,7 +1,18 @@
 [package]
 name = "actix-web-extras"
 version = "0.1.0"
-edition = "2021"
+edition = "2018"
+authors = ["Jens Reimann <jreimann@redhat.com>"]
+license = "MIT OR Apache-2.0"
+description = "Functionality which should be part of actix-web, but is not."
+repository = "https://github.com/ctron/actix-web-extras"
+categories = [
+    "network-programming",
+    "asynchronous",
+    "web-programming::http-server",
+]
+keywords = ["actix", "http", "web", "framework", "async"]
+readme = "README.md"
 
 [dependencies]
 actix-web = "4"
