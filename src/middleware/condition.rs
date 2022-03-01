@@ -1,4 +1,6 @@
 //! For middleware documentation, see [`Condition`].
+//!
+//! Pending [PR 2623](https://github.com/actix/actix-web/pull/2623)
 
 use actix_web::{
     body::EitherBody,
