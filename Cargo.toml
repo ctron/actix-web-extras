@@ -1,0 +1,14 @@
+[package]
+name = "actix-web-extras"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+futures-core = "0.3"
+futures-util = "0.3"
+pin-project-lite = "0.2"
+
+[dev-dependencies]
+actix-service = "2"
+actix-rt = "2.6"
